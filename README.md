@@ -188,7 +188,7 @@ https://github.com/kachion27/RAIA-extension-source
 Made with ❤️ for Rikkei Education
 <br>
 <a href="https://raia.edu.vn/privacy">
-Điều khoản của extension
+Chính sách bảo mật của extension
 </a>
 
 </div>
