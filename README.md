@@ -9,7 +9,7 @@ Browser Extension for <b>Rikkei Education</b>
 </p>
 
 <p>
-Developed by <b>Phước NTB</b>
+Developed by <a href="https://www.facebook.com/ntbphuoc"><b>Phước NTB</b></a> Support ft.  <a href="https://www.facebook.com/NhuDangKocho/">NhuDangKocho - 27 NETTEAM</a>
 </p>
 
 <p>
