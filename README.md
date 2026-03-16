@@ -182,6 +182,29 @@ Made with ❤️ for Rikkei Education
 <a href="https://raia.edu.vn/privacy">
 Chính sách bảo mật của extension
 </a>
+<section class="privacy-section">
+  <h2 class="privacy-lang">Tiếng Việt</h2>
+  <p class="privacy-intro">Raia Extension được phát triển cho mục đích giám sát giáo dục trong hệ thống học tập của Rikkei Education.</p>
+  <h3>Thông Tin Chúng Tôi Thu Thập</h3>
+  <p>Tiện ích thu thập các thông tin sau từ tab trình duyệt đang hoạt động:</p>
+  <ul>
+    <li>URL của tab đang mở</li>
+    <li>Tên miền của trang web được truy cập</li>
+    <li>Tiêu đề trang</li>
+  </ul>
+  <h3>Mục Đích Thu Thập Dữ Liệu</h3>
+  <p>Dữ liệu thu thập được sử dụng để giám sát tuân thủ chính sách học tập trong các phiên có giám sát như lớp học trực tuyến hoặc thi cử.</p>
+  <h3>Truyền Tải Dữ Liệu</h3>
+  <p>Thông tin thu thập có thể được truyền tải an toàn đến máy chủ giám sát do Rikkei Education vận hành để phân tích và phát hiện vi phạm.</p>
+  <h3>Sử Dụng Dữ Liệu</h3>
+  <p>Tiện ích không thu thập thông tin cá nhân như mật khẩu, nội dung nhập form hay tin nhắn riêng tư.</p>
+  <h3>Chia Sẻ Dữ Liệu</h3>
+  <p>Dữ liệu thu thập chỉ được sử dụng trong hệ thống giám sát Rikkei Education và không chia sẻ với bên thứ ba.</p>
+  <h3>Quyền Kiểm Soát Của Người Dùng</h3>
+  <p>Tiện ích chỉ hoạt động trong các phiên giám sát giáo dục được phép.</p>
+  <h3>Liên Hệ</h3>
+  <p>Nếu bạn có thắc mắc về chính sách này, vui lòng liên hệ Rikkei Education.</p>
+</section>
 
 </div>
 
