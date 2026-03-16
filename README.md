@@ -1,6 +1,6 @@
 <div align="center">
 
-<h1>RAIA Extension</h1>
+<h1>RAIA Extension <BR> LƯU Ý : MỤC ĐÍCH NGHIÊN CỨU LOGIC, CÁM TÀ ĐẠO</h1>
 
 <img src="icons/icon.png" width="120">
 
