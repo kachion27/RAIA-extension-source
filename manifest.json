@@ -1,0 +1,30 @@
+{
+   "action": {
+      "default_icon": {
+         "16": "icons/icon.png",
+         "32": "icons/icon.png"
+      },
+      "default_popup": "popup/popup.html",
+      "default_title": "Raia"
+   },
+   "background": {
+      "service_worker": "background/background.js"
+   },
+   "description": "Raia browser extension for Chromium and Gecko",
+   "host_permissions": [ "http://localhost:4111/*", "https://api-v3.raia.edu.vn/*" ],
+   "icons": {
+      "128": "icons/icon.png",
+      "16": "icons/icon.png",
+      "48": "icons/icon.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAkcec05SPpC7ny3N2xxCqJsfewJGZrckA/x6eaT+wOtZVWT6VNI9liUBEd/jf3DEWF/V95lWMIqQLCtONtUTci84cs3vhknR/cKwYYt98sUBA2ZAw+H3d2AP1Z4z6FM/YUHJO+XnDAFwNm+T3/NPkhTKnygxVbw/UTmcCmdnjDb2zuw+08SO0yh5HvSC79L68LSF5vOPk7ntV0BF+4XEj21e/fgFkcMyEvCi+abvzwaJbDx7cgjb/AO1DvNjmL8boiNjo1F4P0OPskKWbLkZbGR4MF9AK1V0jC03BBTjZfyPSX8cZNX89fnt8Pc8gMcAKWmuis2sRj1qCRsbbIzlH5QIDAQAB",
+   "manifest_version": 3,
+   "name": "Raia Extension",
+   "options_ui": {
+      "open_in_tab": true,
+      "page": "auth/auth.html"
+   },
+   "permissions": [ "storage", "tabs", "alarms" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.0.0"
+}

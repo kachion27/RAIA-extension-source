@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Đăng nhập - Raia</title>
+  <link rel="stylesheet" href="auth.css">
+</head>
+<body>
+  <div class="auth-container">
+    <img id="logo" class="logo" src="" alt="Raia" />
+    <h1>Đăng nhập</h1>
+
+    <!-- Step 1: Email only -->
+    <div id="step-1" class="step">
+      <form id="form-email">
+        <div class="form-group">
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" required placeholder="example@email.com" autocomplete="email">
+        </div>
+        <button type="submit" id="btn-continue">Tiếp tục</button>
+      </form>
+      <p id="error-email" class="error" hidden></p>
+    </div>
+
+    <!-- Logged in -->
+    <div id="step-logged-in" class="step" hidden>
+      <div id="student-profile" class="student-profile">
+        <div id="student-loading" class="student-loading">Đang tải...</div>
+        <div id="student-info" class="student-info" hidden>
+          <img id="student-avatar" class="student-avatar" src="" alt="">
+          <div class="student-details">
+            <div class="student-name" id="student-name"></div>
+            <div class="student-email" id="student-email"></div>
+            <div class="student-phone" id="student-phone"></div>
+            <div class="student-status" id="student-status"></div>
+          </div>
+        </div>
+      </div>
+      <button type="button" id="btn-logout" class="btn-logout">Đăng xuất</button>
+    </div>
+
+    <!-- Step 2: Password -->
+    <div id="step-2" class="step" hidden>
+      <p id="password-hint" class="hint"></p>
+      <form id="form-password">
+        <input type="hidden" id="email-hidden">
+        <div class="form-group">
+          <label for="password">Mật khẩu</label>
+          <input type="password" id="password" name="password" required placeholder="••••••••" autocomplete="current-password">
+        </div>
+        <button type="submit" id="btn-login">Đăng nhập</button>
+      </form>
+      <p id="error-password" class="error" hidden></p>
+      <button type="button" id="btn-back" class="link-btn">← Quay lại</button>
+    </div>
+  </div>
+  <script src="../config.js"></script>
+  <script src="../lib/api.js"></script>
+  <script src="auth.js"></script>
+</body>
+</html>
