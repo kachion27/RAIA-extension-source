@@ -173,14 +173,6 @@ Developer at <b>Rikkei Education</b>
 
 </p>
 
-<h2>🔗 Repository</h2>
-
-<p>
-<a href="https://github.com/kachion27/RAIA-extension-source">
-https://github.com/kachion27/RAIA-extension-source
-</a>
-</p>
-
 <hr>
 
 <div align="center">
